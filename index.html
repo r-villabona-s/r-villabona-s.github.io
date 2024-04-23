@@ -1,1 +1,416 @@
-hello world
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Portafolio RVS</title>
+    <link rel="icon" type="image/x-icon" href="./resource/images/favicon.png">
+    <!-- metadatos -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, REACT,JavaScript">
+    <meta name="description" content="Portafolio villabona">
+    <!-- styles -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1>Portafolio</h1>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
+                aria-controls="navbar-toggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-toggler">
+                <a class="navbar-brand" href="#her">
+                    <i class="bi bi-house-add-fill"></i>
+                </a>
+
+                <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#my"> Acerca de mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#proy"> Proyectos </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#test">Testimonios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#contact">Contacto </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- hero section -->
+    <section id="her" class="hero align-items-stretch">
+        <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+            <img class="hero-img-principal rounded-circle" src="./resource/images/yoga-kundalini.svg" alt="Foto RVS">
+            <h1>Hola, mi nombre es Raúl Villabona Suárez</h1>
+            <h2>
+                <p>Soy ingeniero de sistemas y computación de la universidad nacional de Colombia y me didico al
+                    desarrollo de software.</p>
+            </h2>
+        </div>
+        <div class="hero-inferior">
+            <img class="hero-inferior-imagen img-fluid" src="./resource/images/hero-inferior.svg"
+                alt="Java Css HTML Angular>">
+        </div>
+    </section>
+
+    <!-- sobre mi -->
+    <section id="my" class="sobre-mi seccion-oscura">
+        <div class="contenedor">
+            <h2 class="secion-titulo"> Conoce a Raúl Villabona Suárez</h2>
+            <p class="secion-texto">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sit et dolorem quae id quas, harum quia
+                perspiciatis animi deleniti voluptate aperiam repudiandae obcaecati mollitia eius asperiores molestiae
+                soluta repellat?
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel, non obcaecati? Voluptatem, rem eveniet
+                totam recusandae ut vero exercitationem molestias aperiam quam! Magnam natus maxime quis animi ducimus
+                voluptate mollitia.
+            </p>
+        </div>
+    </section>
+    <!-- experiencia  -->
+    <section class="experiencia seccion-clara">
+        <div class="container text-center">
+            <div class="row">
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-laptop"></i>
+                    <p class="experiencia-titulo">Desarrolo web</p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quia minima necessitatibus optio,
+                        impedit rem exercitationem modi facere reprehenderit nihil voluptate maxime vero dolores numquam
+                        quis blanditiis sunt perferendis voluptates!
+                    </p>
+                    <div class="badges-contenedor">
+                        <span class="badge text-bg-primary">HTML</span>
+                        <span class="badge text-bg-primary">CSS</span>
+                        <span class="badge text-bg-primary">JavaScript</span>
+                        <span class="badge text-bg-primary">Java</span>
+                        <span class="badge text-bg-primary">Oracle</span>
+                        <span class="badge text-bg-primary">Angular</span>
+                        <span class="badge text-bg-primary">Spring Boot</span>
+                    </div>
+                </div>
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-book"></i>
+                    <p class="experiencia-titulo">Estudios</p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quisquam ipsa numquam nam, eius
+                        accusamus ab, quia repellat illum, facilis corporis sed debitis. Reiciendis, voluptatibus facere
+                        commodi provident doloribus hic?
+                    </p>
+                    <div class="badges-contenedor">
+                        <span class="badge text-bg-primary">FreeCodeCamp</span>
+                        <span class="badge text-bg-primary">Desarrollo Web</span>
+                        <span class="badge text-bg-primary">Python</span>
+                    </div>
+                </div>
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-pencil-square"></i>
+                    <p class="experiencia-titulo">Artículos</p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem, odio. Blanditiis, fugit
+                        temporibus minus quo, cumque atque non accusamus eum distinctio maxime quas at asperiores
+                        nesciunt architecto ut libero impedit.
+                    <div class="badges-contenedor">
+                        <span class="badge text-bg-primary">Escribir</span>
+                        <span class="badge text-bg-primary">Editar</span>
+                        <span class="badge text-bg-primary">Blogs</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Proyectos -->
+    <section id="proy" class="proyectos-recientes seccion-clara  d-flex flex-column">
+        <h2 class="seccion-titulo texto-negro">Mis proyectos</h2>
+        <h3 class="seccion-descripcion">
+            Estos con los proyectos en los que he trabajado recientemente.
+        </h3>
+        <!-- Galeria de proyectos -->
+        <div class="container text-center proyectos-contenedor">
+            <div class="row">
+                <!-- proyecto 1  -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="resource/images/project1.jpg" alt="proyecto1">
+                        <div class="overlay">
+                            <p>Proyecto 1</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proyecto 2  -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="resource/images/project2.jpg" alt="proyecto2">
+                        <div class="overlay">
+                            <p>Proyecto 2</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proyecto 3  -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="resource/images/project3.jpg" alt="proyecto3">
+                        <div class="overlay">
+                            <p>Proyecto 3</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proyecto 4  -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="resource/images/project4.jpg" alt="proyecto4">
+                        <div class="overlay">
+                            <p>Proyecto 4</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proyecto 5  -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="resource/images/project5.jpg" alt="proyecto5">
+                        <div class="overlay">
+                            <p>Proyecto 5</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proyecto 6  -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="resource/images/project6.png" alt="proyecto6">
+                        <div class="overlay">
+                            <p>Proyecto 6</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a href="https://cybmeta.com/em-y-rem" target="_blank" rel="noopener noreferrer">
+            <button type="button" class="btn btn-info"> Ver más proyectos
+                <i class="bi bi-arrow-right-circle-fill"></i>
+            </button>
+        </a>
+    </section>
+    <!-- Lista de articulos -->
+    <section class="articulos justify-content-start">
+        <h2 class="seccion-titulo texto-negro"> Articulos</h2>
+
+        <div class="card">
+            <div class="card-header">
+                Más recientes
+            </div>
+            <ul class="list-group list-group-flush">
+                <a href="https://www.freecodecamp.org/espanol/news/como-descifrar-contrasenas-usando-john-the-ripper-tutorial-de-pentesting/"
+                    target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">
+                        Tutorial de Pentesting
+                    </li>
+                </a>
+                <a href="https://www.freecodecamp.org/espanol/news/find-vs-filter-en-javascript-las-diferencias-a-traves-de-ejemplos/"
+                    target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">
+                        find() vs filter() en JavaScript
+                    </li>
+                </a>
+                <a href="https://www.freecodecamp.org/espanol/news/how-to-consume-rest-apis-in-react-a-beginners-guide/"
+                    target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">
+                        Cómo consumir REST APIs en React - Guía para principiantes
+                    </li>
+                </a>
+                <a href="https://www.freecodecamp.org/espanol/news/construyendo-una-api-rest-con-node-fastify-sequelize-postgresql/"
+                    target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">
+                        Construyendo una API REST con Node + Fastify + Sequelize + PostgreSQL
+                    </li>
+                </a>
+            </ul>
+        </div>
+        <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+            <button type="button" class="btn btn-info"> Ver más artículos
+                <i class="bi bi-arrow-right-circle-fill"></i>
+            </button>
+        </a>
+    </section>
+    <!-- Testimonios -->
+    <section class="testimonios seccion-clara">
+        <h2 id="test" class="seccion-titulo">Testimonios</h2>
+        <h3 class="seccion-descripcion">Estos son algunos testimonios de mis clientes...</h3>
+
+        <!-- Carrusel -->
+        <div id="testimonios-carousel" class="carousel-dark carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <img class="testimonio-imagen  rounded-circle" src="resource/images/cliente1.png"
+                            alt="cliente Gino">
+                        <p class="testimonio-texto"> Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Necessitatibus id cumque sunt ullam distinctio vitae quam at, dolores perspiciatis dolorem
+                            consectetur libero nihil praesentium eos earum esse, corrupti explicabo veniam.</p>
+                        <div class="testimonio-info">
+                            <p class="cliente">Gino</p>
+                            <p class="cargo">Gerente de proyectos en desarrollo web</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <img class="testimonio-imagen  rounded-circle" src="resource/images/cliente2.png"
+                            alt="cliente Gina">
+                        <p class="testimonio-texto"> Lorem ipsum dolor sit amet consectetur.</p>
+                        <div class="testimonio-info">
+                            <p class="cliente">Gina</p>
+                            <p class="cargo">Desarrolladora web</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <img class="testimonio-imagen  rounded-circle" src="resource/images/cliente3.png"
+                            alt="cliente Kate">
+                        <p class="testimonio-texto"> Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Necessitatibus id cumque sunt ullam distinctio vitae quam at, dolores perspiciatis dolorem
+                            consectetur libero nihil praesentium eos earum esse, corrupti explicabo veniam.</p>
+                        <div class="testimonio-info">
+                            <p class="cliente">Kate</p>
+                            <p class="cargo">Publicista</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+    </section>
+    <!--Contacto-->
+    <section id="contact" class="contacto seccion-oscura">
+        <div class="container">
+            <div class="container text-center d-flex justify-content-evenly rectangulo">
+                <div class="row">
+                    <div class="col-12 col-md-4 seccion-titulo">
+                        Hablemos!!
+                    </div>
+                    <div class="col-12 col-md-4 descripcion">
+                        Contáctame para iniciar tu proyecto de desarrollo web y haré que tu visión se vualva realidad!
+                    </div>
+                    <div class="col-12 col-md-4 ">
+                        <a href="mailto:unr.message@gmail.com">
+                            <button type="button">
+                                Contacto
+                                <i class="bi bi-envelope-at-fill"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Pie de pagina -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+        <img class="footer-logo" alt="Logo portafolio" src="resource/images/icon_footer.png">
+        <p class="footer-texto text-center "> Aprendo y creo todos los días <br> Creemos un proyecto juntos.
+        </p>
+        <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+            <a href="https://twitter.com/raul__vs" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-twitter"></i>
+            </a>
+            <a href="https://github.com/r-villabona-s" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/rvillabonas/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://www.instagram.com/freecodecamp/?hl=es" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="mailto:hola.message@gmail.com" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-envelope"></i>
+            </a>
+        </div>
+        <div class="derechos-autor">
+            Creado por RVS 2023 &#169;
+        </div>
+
+    </footer>
+    <!-- boostrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
